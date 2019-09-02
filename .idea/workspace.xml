@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Olesia_Surovehina.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/ClientEntitlements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFramework2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestFramework2/META-INF/TestFramework2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestFramework2/com/company/AdminLoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestFramework2/com/company/BrowserConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestFramework2/com/company/ClientRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestFramework2/com/company/CompanyCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestFramework2/com/company/CompanyEntitlements$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestFramework2/com/company/CompanyEntitlements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestFramework2/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AdminLoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BrowserConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ClientRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ClientUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CompanyCreation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CompanyEntitlements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AdminLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AdminLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ClientRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CompanyCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CompanyCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CompanyEntitlements.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +44,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ClientRole" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ClientRole">
+    <configuration name="ClientEntitlements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ClientEntitlements" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientRole" type="TestNG" nameIsGenerated="true">
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -83,9 +79,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClientRole.CreateClientRole" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ClientRole" />
+      <option name="METHOD_NAME" value="CreateClientRole" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientRole.CreateClientRole" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ClientRole" />
+      <option name="METHOD_NAME" value="CreateClientRole" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ClientRole" />
+        <item itemvalue="TestNG.ClientEntitlements" />
+        <item itemvalue="TestNG.ClientRole.CreateClientRole" />
+        <item itemvalue="TestNG.ClientRole.CreateClientRole (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +134,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567419047632</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit after reconverting as a maven project">
+      <created>1567420426225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567420426225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,5 +154,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit after reconverting as a maven project" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit after reconverting as a maven project" />
   </component>
 </project>

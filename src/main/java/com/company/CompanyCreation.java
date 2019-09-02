@@ -10,7 +10,7 @@ import java.util.Random;
 public class CompanyCreation extends AdminLoginPage{
 public String  company;
 public String companyName;
-//public JavascriptExecutor js = (JavascriptExecutor) driver;
+
 
    protected String getSaltString() {
         String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
@@ -44,12 +44,12 @@ public String companyName;
         js.executeScript("window.scrollBy(0,1600)"); //scroll to the end of the page
         //driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div/div/div[2]/form/div[1]/div[38]/div[2]/div/div[1]/div[1]/div/div/div[1]/input")).clear();
         WebElement inputField = driver.findElement(By.xpath("//*[@id=\"PaymentImportMethod\"]"));
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
         inputField.clear();
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
         inputField.sendKeys("Any Workflow");
         inputField.sendKeys(Keys.ENTER);
-        Thread.sleep(3000);
+       // Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@id=\"PAYDAYSAVAIL\"]")).sendKeys("30"); //payment settings: fill in data retention option
         driver.findElement(By.xpath("//*[@id=\"PAYMAXDAYS\"]")).clear();
         driver.findElement(By.xpath("//*[@id=\"PAYMAXDAYS\"]")).sendKeys("30");// payment settings: fill in 'Maximum number of days'

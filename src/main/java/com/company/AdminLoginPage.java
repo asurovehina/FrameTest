@@ -4,7 +4,8 @@ import org.openqa.selenium.By;
 
 public class AdminLoginPage extends BrowserConfig {
     private String adminUserGroup = "cbao";
-    private String adminUser = "admin1";
+    private String adminUser = "sysadmin1";
+    private String adminUser2 = "sysadmin2";
     private String adminPassw = "Password1";
 
     public void ChromeLoginDev1() {
@@ -17,6 +18,17 @@ public class AdminLoginPage extends BrowserConfig {
        driver.findElement(By.xpath("/html/body/form/div/div[2]/div/div[3]/div/div/div/div[1]/a/span")).click();
        driver.findElement(By.xpath("//*[@id='homeLink']"));
        //driver.quit();
+    }
+    public void ChromeLoginDev1User2() {
+        super.ChromeConfig();
+        driver.get(AdminDev1);
+        driver.manage().window().maximize();
+        driver.findElement(By.xpath("//input[@id='corpID']")).sendKeys(adminUserGroup);
+        driver.findElement(By.xpath("//input[@id='userID']")).sendKeys(adminUser2);
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys(adminPassw);
+        driver.findElement(By.xpath("/html/body/form/div/div[2]/div/div[3]/div/div/div/div[1]/a/span")).click();
+        driver.findElement(By.xpath("//*[@id='homeLink']"));
+        //driver.quit();
     }
 //    public void FFLoginDev1() {
 //        super.FirefoxConfig();
