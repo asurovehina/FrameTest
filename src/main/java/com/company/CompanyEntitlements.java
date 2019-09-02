@@ -23,11 +23,12 @@ public class CompanyEntitlements extends CompanyCreation {
 
 // while the following loop runs, the DOM changes -
 // page is refreshed, or element is removed and re-added
+        // wait.until(presenceOfElementLocated(By.xpath("//input[@type='checkbox']")));
         for (WebElement el : checkboxes) {
             if (!el.isSelected()) {
                 el.click();
+                wait.until(presenceOfElementLocated(By.xpath("//input[@type='checkbox']")));
             }
-            wait.until(presenceOfElementLocated(By.xpath("//input[@type='checkbox']")));
         }
 
 
