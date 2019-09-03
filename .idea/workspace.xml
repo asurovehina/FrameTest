@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/ClientEntitlements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AdminLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AdminLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ClientRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CompanyCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CompanyCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CompanyEntitlements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientEntitlements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ClientEntitlements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Role.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +59,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientRole" type="TestNG" nameIsGenerated="true">
+    <configuration name="Role" type="TestNG" nameIsGenerated="true">
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +68,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ClientRole" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Role" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -79,7 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientRole.CreateClientRole" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Role.CreateClientRole" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +85,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ClientRole" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Role" />
       <option name="METHOD_NAME" value="CreateClientRole" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -97,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientRole.CreateClientRole" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Role.CreateClientRole" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +103,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ClientRole" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Role" />
       <option name="METHOD_NAME" value="CreateClientRole" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -141,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567420426225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit after clientrole completed">
+      <created>1567462159172</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567462159172</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit after reconverting as a maven project" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit after reconverting as a maven project" />
+    <MESSAGE value="commit after clientrole completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit after clientrole completed" />
   </component>
 </project>

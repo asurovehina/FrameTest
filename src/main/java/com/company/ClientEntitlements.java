@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
-
 public class ClientEntitlements extends CompanyCreation {
 
     public void ClickAllCheckBoxes () {
@@ -17,18 +16,10 @@ public class ClientEntitlements extends CompanyCreation {
     }
 
     public void ClickSelectAll () {
-        List<WebElement> checkboxesSelectAll = driver.findElements(By.xpath("//input[contains(@id,'selectAll')]"));
+        List<WebElement> checkboxesSelectAll = driver.findElements(By.xpath("//input[contains(@id,'All')]"));
         for (WebElement el1 : checkboxesSelectAll) {
             if (!el1.isSelected()) {
                 el1.click();
-            }
-        }
-    }
-    public void ClickAssignAll () {
-        List<WebElement> checkboxesAssignAll = driver.findElements(By.xpath("//input[contains(@id,'assignAll')]")); //because of difference between  id names
-        for (WebElement el2 : checkboxesAssignAll) {
-            if (!el2.isSelected()) {
-                el2.click();
             }
         }
     }

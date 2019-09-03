@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import java.util.Set;
 
 @Test
-public class ClientRole extends ClientEntitlements {
+public class Role extends ClientEntitlements {
 
     public void CreateClientRole() throws InterruptedException {
         super.CompanyEntitlDev1();
@@ -29,7 +29,7 @@ public class ClientRole extends ClientEntitlements {
         driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[3]/button[1]")).click();
         Thread.sleep(7000);
         //giving entitl to the created role
-        ClickAllCheckBoxes();
+        ClickSelectAll();
         JavascriptExecutor js = (JavascriptExecutor) driver;
         driver.findElement(By.xpath("//button[@type='button'][contains(.,'Continue')]")).click(); //click the button continue
         Thread.sleep(4000);
@@ -37,10 +37,9 @@ public class ClientRole extends ClientEntitlements {
         Thread.sleep(2000);
         js.executeScript("window.scrollBy(0,1600)");
         ClickSelectAll();
-        ClickAssignAll();
         driver.findElement(By.xpath("//*[@id=\"main\"]/div/div/section/div[2]/ul/li[2]/a")).click(); //go to the tab Reporting
         Thread.sleep(3000);
-        ClickAllCheckBoxes();
+        ClickSelectAll();
         Thread.sleep(3000);
         ClickSelectAll();
         driver.findElement(By.xpath("//a[@class='NavTabs-link btn btn-tertiary'][contains(.,'Administration')]")).click();//go to the tab administration
@@ -71,10 +70,11 @@ public class ClientRole extends ClientEntitlements {
                 driver.switchTo().window(handle);
             }
         }
-        driver.findElement(By.xpath("//*[@id=\"select-all-checkbox-view566\"]")).click();
-        driver.findElement(By.xpath("//*[@id=\"complete\"]/button[1]")).click();
-        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[3]/button[1]")).click();
+        driver.findElement(By.xpath("//*[@id=\"select-all-checkbox-view566\"]")).click(); //select the role
+        driver.findElement(By.xpath("//*[@id=\"complete\"]/button[1]")).click(); //click Update
+        driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[3]/button[1]")).click(); //click Yes
         Thread.sleep(2000);
+        driver.switchTo().window(currentHandle2);
     }
 }
 
