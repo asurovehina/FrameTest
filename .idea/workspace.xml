@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/BrowserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/BrowserConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ClientUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CompanyCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CompanyCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +49,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ClientUser">
+  <component name="RunManager" selected="TestNG.ClientBank">
+    <configuration name="ClientBank" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.client" />
+      <option name="MAIN_CLASS_NAME" value="com.company.client.ClientBank" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientEntitlements" type="TestNG" nameIsGenerated="true">
       <module name="main" />
       <extension name="coverage">
@@ -156,6 +171,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ClientBank" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -189,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567487590608</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit after user creation">
+      <created>1567881684897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567881684897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +224,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -207,6 +236,7 @@
     <MESSAGE value="commit after reconverting as a maven project" />
     <MESSAGE value="commit after clientrole completed" />
     <MESSAGE value="commit after role refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit after role refactoring" />
+    <MESSAGE value="commit after user creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit after user creation" />
   </component>
 </project>

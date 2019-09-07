@@ -6,11 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import java.util.Set;
 
-@Test
+
 public class ClientUser extends Role {
     public String userId;
     public String userName;
-    public String UserCreation() throws InterruptedException{
+    public void UserCreation() throws InterruptedException{
         CreateClientRole();
         driver.findElement(By.xpath("(//span[@class='button-label'][contains(.,'View')])[10]")).click();//click in the Admin Client user
         Thread.sleep(5000);
@@ -83,7 +83,7 @@ public class ClientUser extends Role {
         driver.findElement(By.xpath("//*[@id=\"complete\"]/button[1]")).click(); //click Approve
         driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[3]/button[1]")).click(); //click Yes
         Thread.sleep(2000);
-        return userId;
+        //return userId;
         //driver.quit();
     }
 }
