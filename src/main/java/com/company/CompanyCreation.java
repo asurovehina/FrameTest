@@ -30,7 +30,7 @@ public String companyName;
         Thread.sleep(2000);
         driver.findElement(By.xpath("//a[contains(@data-bt-itemrequestparams,'filterID=15151')]")).click();//opening a company page
         Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\"btnAdd-act\"]")).click(); //clicking the button 'add'
+        driver.findElement(By.xpath("//*[@id=\"btnAdd-act\"]/span")).click(); //clicking the button 'add'
         Thread.sleep(5000);
         company = getSaltString();
         System.out.println(company);

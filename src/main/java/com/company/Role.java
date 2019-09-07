@@ -5,7 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 import java.util.Set;
 
-@Test
+//@Test
 public class Role extends ClientEntitlements {
 
     public void CreateClientRole() throws InterruptedException {

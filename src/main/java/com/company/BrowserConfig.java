@@ -10,7 +10,7 @@ public class BrowserConfig {
     public String AdminQa1 = "https://pcm-qa1-fi9001-web01.saas-n.com/admin/pcm/";
     public String ClientQa1 = "https://pcm-qa1-fi9001-web01.saas-n.com/ui/";
     public String ClientDev1 = "https://pcm-dev1-fi9001-web01.saas-n.com/ui/";
-    WebDriver driver;
+    public WebDriver driver;
     public void ChromeConfig() {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Olesia.Surovehina\\Desktop\\selenium\\chromedriver.exe");
         driver = new ChromeDriver();
