@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tests/TransferOneToOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tests/TransferSingleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" afterDir="false" />
     </list>
@@ -15,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -30,7 +34,7 @@
   </component>
   <component name="ProjectId" id="1QHEJJPx0Pvdz3eEnfHdhcq5lgj" />
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -47,7 +51,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ClientBank">
+  <component name="RunManager" selected="TestNG.C:/Users/Olesia.Surovehina/IdeaProjects/TestFramework2/src/main/testng.xml">
+    <configuration name="C:/Users/Olesia.Surovehina/IdeaProjects/TestFramework2/src/main/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientBank" type="TestNG" nameIsGenerated="true">
       <module name="main" />
       <extension name="coverage">
@@ -169,6 +183,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransferOneToOneTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.TransferOneToOneTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransferSingleTest" type="TestNG" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.TransferSingleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tests" type="TestNG" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Olesia.Surovehina/IdeaProjects/TestFramework2/src/main/testng.xml" />
+        <item itemvalue="TestNG.TransferOneToOneTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -216,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567887186632</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2 methods - BankCreation and CreateAcc are added">
+      <created>1567950988074</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567950988074</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +322,7 @@
     <MESSAGE value="commit after role refactoring" />
     <MESSAGE value="commit after user creation" />
     <MESSAGE value="lasy changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="lasy changes" />
+    <MESSAGE value="2 methods - BankCreation and CreateAcc are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 methods - BankCreation and CreateAcc are added" />
   </component>
 </project>

@@ -1,0 +1,8 @@
+<suite name = "TransferSuite">
+    <test name = "TestTransfer">
+        <classes>
+            <class name = "com.tests.TransferOneToOneTest" />
+            <class name="com.tests.TransferSingleTest" />
+        </classes>
+    </test>
+</suite>
