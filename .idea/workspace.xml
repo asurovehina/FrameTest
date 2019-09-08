@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ClientUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +48,7 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.ClientBank">
-    <configuration name="ClientBank" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientBank" type="TestNG" nameIsGenerated="true">
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +169,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.ClientBank" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -216,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567881684897</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lasy changes">
+      <created>1567887186632</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567887186632</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +237,7 @@
     <MESSAGE value="commit after clientrole completed" />
     <MESSAGE value="commit after role refactoring" />
     <MESSAGE value="commit after user creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit after user creation" />
+    <MESSAGE value="lasy changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="lasy changes" />
   </component>
 </project>
