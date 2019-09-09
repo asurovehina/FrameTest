@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -319,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568057157598</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Company page added">
+      <created>1568057916885</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568057916885</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
