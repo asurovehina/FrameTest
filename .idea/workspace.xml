@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompanyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompanyFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -362,7 +359,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568063517112</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Create Company factory filled">
+      <created>1568064885441</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1568064885441</updated>
+    </task>
+    <task id="LOCAL-00017" summary="MenuTab factory filled">
+      <created>1568065128471</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1568065128471</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,6 +400,8 @@
     <MESSAGE value="Company page added" />
     <MESSAGE value="Company main factory filled" />
     <MESSAGE value="Company page factory filled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Company page factory filled" />
+    <MESSAGE value="Create Company factory filled" />
+    <MESSAGE value="MenuTab factory filled" />
+    <option name="LAST_COMMIT_MESSAGE" value="MenuTab factory filled" />
   </component>
 </project>
