@@ -11,43 +11,22 @@ public class CompanyMain {
         element = driver.findElement(By.xpath("//input[@id='quickSearchTextBox']"));
         return element; //filter field
     }
-    public static void fillFilterCompany  (WebDriver driver, String Company) {
-        element = FilterCompany(driver);
-        element.sendKeys(Company);
-    }
-
     public static WebElement GoButton (WebDriver driver) {
         element = driver.findElement(By.xpath("//span[@class='headerLinks'][contains(.,'Go')]"));
         return element; //filter field
     }
-    public static void ClickGoButton  (WebDriver driver) {
-        element = GoButton(driver);
-        element.click();
-    }
     public static WebElement Actions  (WebDriver driver) {
         element = driver.findElement(By.xpath("//button[contains(@id,'lv-cmenu-0')]"));
         return element;
-    }
-    public static void ClickActions(WebDriver driver) {
-        element = Actions(driver);
-        element.click();
     }
 
     public static WebElement ActionsView  (WebDriver driver) {
         element = driver.findElement(By.xpath("//td[@class='dijitReset dijitMenuItemLabel'][contains(@id,'text')][contains(.,'VIEW')]"));
         return element;
     }
-    public static void ClickActionsView (WebDriver driver) {
-        element = ActionsView(driver);
-        element.click();
-    }
     public static WebElement Add  (WebDriver driver) {
         element = driver.findElement(By.xpath("//*[@id=\"btnAdd-act\"]/span"));
         return element;
-    }
-    public static void ClickAdd (WebDriver driver) {
-        element = Add(driver);
-        element.click();
     }
 }
 
