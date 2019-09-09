@@ -11,9 +11,9 @@ public class CompanyMain {
         element = driver.findElement(By.xpath("//input[@id='quickSearchTextBox']"));
         return element; //filter field
     }
-    public static void fillFilterCompany  (WebDriver driver, String CompanyName) {
+    public static void fillFilterCompany  (WebDriver driver, String Company) {
         element = FilterCompany(driver);
-        element.sendKeys(CompanyName);
+        element.sendKeys(Company);
     }
 
     public static WebElement GoButton (WebDriver driver) {

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -311,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568056597595</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Company page added">
+      <created>1568057157598</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568057157598</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +343,7 @@
     <MESSAGE value="lasy changes" />
     <MESSAGE value="2 methods - BankCreation and CreateAcc are added" />
     <MESSAGE value="finally completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="finally completed" />
+    <MESSAGE value="Company page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Company page added" />
   </component>
 </project>
