@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/AdminLoginFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/AdminMainFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMainFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompanyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/MenuTabFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/test/TestCreateCompany.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/AdminLogin.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568057916885</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Company page added">
+      <created>1568060029402</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568060029403</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
