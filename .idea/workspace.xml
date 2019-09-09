@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/AdminLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/AdminMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/MenuTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -307,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567980532220</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finally completed">
+      <created>1568056597595</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568056597595</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
