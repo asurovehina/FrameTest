@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tests/TransferOneToOneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tests/TransferSingleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/AdminLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/AdminMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/framework/MenuTab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -300,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567950988074</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finally completed">
+      <created>1567980532220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567980532220</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +330,7 @@
     <MESSAGE value="commit after user creation" />
     <MESSAGE value="lasy changes" />
     <MESSAGE value="2 methods - BankCreation and CreateAcc are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 methods - BankCreation and CreateAcc are added" />
+    <MESSAGE value="finally completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally completed" />
   </component>
 </project>
