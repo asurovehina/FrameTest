@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompanyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompanyFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568063178849</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Company page factory filled">
+      <created>1568063517112</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568063517112</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,6 +388,7 @@
     <MESSAGE value="finally completed" />
     <MESSAGE value="Company page added" />
     <MESSAGE value="Company main factory filled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Company main factory filled" />
+    <MESSAGE value="Company page factory filled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Company page factory filled" />
   </component>
 </project>
