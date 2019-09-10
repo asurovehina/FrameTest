@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminLoginFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminLoginFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/CreateCompanyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/CreateCompanyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +185,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCreateCompany" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCreateCompany" type="TestNG" nameIsGenerated="true">
       <module name="main" />
       <extension name="coverage">
         <pattern>
@@ -258,7 +261,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestCreateCompany" />
         <item itemvalue="TestNG.C:/Users/Olesia.Surovehina/IdeaProjects/TestFramework2/src/main/testng.xml" />
         <item itemvalue="TestNG.TransferOneToOneTest" />
       </list>
@@ -408,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568150880469</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="maven can test">
+      <created>1568154778883</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1568154778883</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,6 +447,7 @@
     <MESSAGE value="Create Company factory filled" />
     <MESSAGE value="MenuTab factory filled" />
     <MESSAGE value="complete, maven cannot run the test still" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete, maven cannot run the test still" />
+    <MESSAGE value="maven can test" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven can test" />
   </component>
 </project>

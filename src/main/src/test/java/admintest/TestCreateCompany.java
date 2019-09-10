@@ -1,6 +1,7 @@
 package admintest;
 
 import factory.*;
+import org.openqa.selenium.By;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -14,9 +15,11 @@ public class TestCreateCompany extends BaseTest {
     CompanyMainFactory companyMainFactory;
     CreateCompanyFactory createCompanyFactory;
    @BeforeClass
-   public void BeforeClass () {
+   public void BeforeClass () throws InterruptedException {
        getWebDriver();
        driver.get(url);
+       Thread.sleep(2000);
+       driver.manage().window().maximize();
        adminLoginFactory = new AdminLoginFactory(driver);
        adminMainFactory = new AdminMainFactory(driver);
        menuTabFactory = new MenuTabFactory(driver);
@@ -25,12 +28,7 @@ public class TestCreateCompany extends BaseTest {
    }
     @Test
     public void CreateCompany() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.manage().window().maximize();
-        adminLoginFactory.fillUserGroup("cbao");
-        adminLoginFactory.fillUserID("sysadmin1");
-        adminLoginFactory.fillPassword("Password1");
-        adminLoginFactory.clickSignIn();
+        adminLoginFactory.LoginAs("sysadmin1");
         adminMainFactory.ClickMenu();
         menuTabFactory.ClickCompanyEl();
         companyMainFactory.ClickAdd();
@@ -46,6 +44,7 @@ public class TestCreateCompany extends BaseTest {
     }
     @AfterClass
     public void AfterMethod () {
+        driver.findElement(By.xpath("//*[@id=\"confirmation_messagesListNode\"]"));
         driver.quit();
-    }
+        }
 }

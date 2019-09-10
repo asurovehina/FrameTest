@@ -24,7 +24,7 @@ public class CreateCompanyFactory {
     @FindBy(xpath = "//*[@id=\"PAYDAYSAVAIL\"]")
     WebElement DataRetentionPS;
 
-    @FindBy(xpath = "//*[@id=\"PAYDAYSAVAIL\"]")
+    @FindBy(xpath = "//*[@id=\"PAYMAXDAYS\"]")
     WebElement MaxNumberPS;
 
     @FindBy(xpath = "//*[@id=\"DAYSAVAIL\"]")
@@ -42,12 +42,16 @@ public class CreateCompanyFactory {
 
         public void FillCompany () {
             String company = randomString10values();
+            System.out.println(company);
             Company.sendKeys(company);
+            Company.getText();
     }
 
         public void FillCompanyName() {
            String companyName = randomString10values();
+           System.out.println(companyName);
             CompanyName.sendKeys(companyName);
+            Company.getText();
     }
 
         public  String randomString10values() {
@@ -72,7 +76,7 @@ public class CreateCompanyFactory {
         PaymentImportMethod.sendKeys(value); //usually the best option to fill in 'Any Workflow'
     }
         public void FillDataRetentionPS(String dataRetention) {
-        DataRetentionIR.sendKeys(dataRetention);
+        DataRetentionPS.sendKeys(dataRetention);
     }
 
         public void FillMaxNumberPS(String maxNumDays) {

@@ -24,15 +24,12 @@ public class AdminLoginFactory {
             PageFactory.initElements(driver, this);
     }
 
-    public void fillUserGroup (String userGr) {
-            userGroup.sendKeys(userGr);
-        }
+    public void LoginAs (String user) throws InterruptedException {
 
-    public void fillUserID (String user) {
+        userGroup.sendKeys("cbao");
         userID.sendKeys(user);
+        password.sendKeys("Password1");
+        signIn.click();
+        Thread.sleep(2000);
     }
-    public void fillPassword (String passwordValue) {
-        password.sendKeys(passwordValue);
-    }
-    public void clickSignIn () throws InterruptedException { signIn.click(); Thread.sleep(3000);}
 }
