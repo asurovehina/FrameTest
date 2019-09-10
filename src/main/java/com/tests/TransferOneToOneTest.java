@@ -3,12 +3,12 @@ package com.tests;
 import com.company.client.ClientBank;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.testng.annotations.AfterMethod;
+//import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TransferOneToOneTest extends ClientBank {
-    @BeforeMethod
+    //@BeforeMethod
     public void setupData () throws InterruptedException {
         BankCreation();
         CreateAccount(123456789);
@@ -16,7 +16,7 @@ public class TransferOneToOneTest extends ClientBank {
         CreateAccount(113456789);
         CreateAccount(123356789);
     }
-    @Test
+    //@Test
     public void TransferCreation () throws InterruptedException {
         driver.findElement(By.xpath("//*[@id=\"gmp-PAYMENTS\"]")).click(); //click the payment & transfers
         driver.findElement(By.xpath("//*[@id=\"nav\"]/div/header/div/div[2]/div/nav/ul/li[3]/ul/li[3]/a")).click(); //go to transfer management
@@ -51,7 +51,7 @@ public class TransferOneToOneTest extends ClientBank {
         driver.findElement(By.xpath("(//input[contains(@class,'form-control text-right')])[2]")).sendKeys("110");
         driver.findElement(By.xpath("//button[@type='button'][contains(.,'Submit')]")).click();
     }
-    @AfterMethod
+    //@AfterMethod
     public void after () {
         driver.quit();
     }

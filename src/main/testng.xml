@@ -1,8 +1,8 @@
-<suite name = "TransferSuite">
-    <test name = "TestTransfer">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "TestCreateCompany">
+    <test name = "TestCreateCompany">
         <classes>
-            <class name = "com.tests.TransferOneToOneTest" />
-            <class name="com.tests.TransferSingleTest" />
+            <class name = "admintest.TestCreateCompany" />
         </classes>
     </test>
 </suite>

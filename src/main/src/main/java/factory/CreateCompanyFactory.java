@@ -1,11 +1,14 @@
-package com.framework;
+package factory;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import java.util.Random;
 
 public class CreateCompanyFactory {
+    WebDriver driver;
     @FindBy(xpath = "//*[@id=\"UserGroup\"]")
     WebElement Company;
 
@@ -30,15 +33,21 @@ public class CreateCompanyFactory {
     @FindBy(xpath = "//*[@id=\"MAXDAYS\"]")
     WebElement MaxNumberIR;
 
-    @FindBy(xpath = "/html/body/div[4]/div[1]/div[2]/div[1]/ul/li[1]/button/span\"")
+    @FindBy(xpath = "//*[@id=\"BTNADD-act\"]")
     WebElement Save;
-
-        public void FillCompany (String company) {
-        Company.sendKeys(company);
+    public CreateCompanyFactory(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
-        public void FillCompanyName(String companyName) {
-        Company.sendKeys(companyName);
+        public void FillCompany () {
+            String company = randomString10values();
+            Company.sendKeys(company);
+    }
+
+        public void FillCompanyName() {
+           String companyName = randomString10values();
+            CompanyName.sendKeys(companyName);
     }
 
         public  String randomString10values() {
@@ -56,16 +65,17 @@ public class CreateCompanyFactory {
         public void ClickAllowSelfAdmin() {
         AllowSelfAdmin.click();
     }
-        public void FillPaymentImportMethod(String value) throws InterruptedException {
+
+    public void FillPaymentImportMethod(String value) throws InterruptedException {
         PaymentImportMethod.clear();
-        PaymentImportMethod.wait(2000);
+        Thread.sleep(2000);
         PaymentImportMethod.sendKeys(value); //usually the best option to fill in 'Any Workflow'
     }
         public void FillDataRetentionPS(String dataRetention) {
         DataRetentionIR.sendKeys(dataRetention);
     }
 
-    public void FillMaxNumberPS(String maxNumDays) {
+        public void FillMaxNumberPS(String maxNumDays) {
         MaxNumberPS.clear();
         MaxNumberPS.sendKeys(maxNumDays);
     }
@@ -76,7 +86,8 @@ public class CreateCompanyFactory {
         MaxNumberIR.clear();
         MaxNumberIR.sendKeys(maxNumDays);
     }
-        public void ClickSave () {
+        public void ClickSave () throws InterruptedException {
         Save.click();
+        Thread.sleep(3000);
     }
 }

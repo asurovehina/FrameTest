@@ -3,19 +3,19 @@ package com.tests;
 import com.company.client.ClientBank;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+//import org.testng.annotations.AfterMethod;
+//import org.testng.annotations.BeforeMethod;
+//import org.testng.annotations.Test;
 
 
 public class TransferSingleTest extends ClientBank {
-@BeforeMethod
+//@BeforeMethod
     public void setupData () throws InterruptedException {
         BankCreation();
         CreateAccount(123456789);
         CreateAccount(122345678);
     }
-@Test
+//@Test
     public void TransferCreation () throws InterruptedException {
         driver.findElement(By.xpath("//*[@id=\"gmp-PAYMENTS\"]")).click(); //click the payment & transfers
         driver.findElement(By.xpath("//*[@id=\"nav\"]/div/header/div/div[2]/div/nav/ul/li[3]/ul/li[3]/a")).click(); //go to transfer management
@@ -36,7 +36,7 @@ public class TransferSingleTest extends ClientBank {
         driver.findElement(By.xpath("//button[@type='button'][contains(.,'Submit')]")).click();
         Thread.sleep(4000);
     }
-    @AfterMethod
+   // @AfterMethod
     public void after () {
         //driver.findElement(By.xpath("//p[contains(.,'Transfer Submitted')]")).isDisplayed(); the toast message is not displayed, needs to be investigated
         driver.quit();

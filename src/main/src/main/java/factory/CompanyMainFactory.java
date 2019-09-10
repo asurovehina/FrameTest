@@ -1,9 +1,12 @@
-package com.framework;
+package factory;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class CompanyMainFactory {
+    WebDriver driver;
     @FindBy(xpath = "//input[@id='quickSearchTextBox']")
     WebElement FilterCompany;
 
@@ -18,20 +21,24 @@ public class CompanyMainFactory {
 
     @FindBy(xpath = "//*[@id=\"btnAdd-act\"]/span")
     WebElement Add;
+    public CompanyMainFactory(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
 
     public void fillFilterCompany  (String Company) {
         FilterCompany.sendKeys(Company);
     }
-        public void ClickGoButton() {
-        GoButton.click();
+        public void ClickGoButton() throws InterruptedException {
+        GoButton.click(); Thread.sleep(2000);
     }
         public void ClickActions() {
         Actions.click();
     }
-        public void ClickActionsView () {
-        ActionsView.click();
+        public void ClickActionsView () throws InterruptedException {
+        ActionsView.click(); Thread.sleep(2000);
     }
-        public void ClickAdd () {
-        Add.click();
+        public void ClickAdd () throws InterruptedException {
+        Add.click(); Thread.sleep(2000);
     }
 }

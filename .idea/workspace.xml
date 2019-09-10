@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/src/main/java/data/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/main/java/utils/ConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/AdminLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/AdminLoginFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminLoginFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/AdminMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/AdminMainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminMainFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/CompanyMainFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/CompanyPageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompanyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/CreateCompanyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/MenuTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/MenuTabFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/MenuTabFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/test/TestCreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tests/TransferOneToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tests/TransferOneToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tests/TransferSingleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tests/TransferSingleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Olesia.Surovehina/IdeaProjects/TestFramework2/src/main/testng.xml">
+  <component name="RunManager" selected="TestNG.TestCreateCompany">
     <configuration name="C:/Users/Olesia.Surovehina/IdeaProjects/TestFramework2/src/main/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="main" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/testng.xml" />
@@ -179,6 +200,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCreateCompany" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="admintest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="admintest" />
+      <option name="MAIN_CLASS_NAME" value="admintest.TestCreateCompany" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TransferOneToOneTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="main" />
       <extension name="coverage">
@@ -238,6 +276,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCreateCompany" />
         <item itemvalue="TestNG.C:/Users/Olesia.Surovehina/IdeaProjects/TestFramework2/src/main/testng.xml" />
         <item itemvalue="TestNG.TransferOneToOneTest" />
       </list>
@@ -373,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568065128471</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="MenuTab factory filled">
+      <created>1568067472597</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1568067472597</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
