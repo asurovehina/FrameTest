@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/src/main/java/data/UserData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/src/main/java/utils/ConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/AdminLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/AdminLoginFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminLoginFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/AdminMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/AdminMainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminMainFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyMainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/CompanyMainFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CompanyPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/CompanyPageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompany.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/CreateCompanyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/CreateCompanyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/MenuTab.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/MenuTabFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/MenuTabFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/framework/test/TestCreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tests/TransferOneToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tests/TransferOneToOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tests/TransferSingleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tests/TransferSingleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,15 +26,17 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="11" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1QHEJJPx0Pvdz3eEnfHdhcq5lgj" />
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.side.proportion" value="0.11954023" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -419,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568067472597</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="complete, maven cannot run the test still">
+      <created>1568150880469</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568150880469</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,6 +437,7 @@
     <MESSAGE value="Company page factory filled" />
     <MESSAGE value="Create Company factory filled" />
     <MESSAGE value="MenuTab factory filled" />
-    <option name="LAST_COMMIT_MESSAGE" value="MenuTab factory filled" />
+    <MESSAGE value="complete, maven cannot run the test still" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete, maven cannot run the test still" />
   </component>
 </project>
