@@ -1,11 +1,9 @@
 package com.company.client;
 
-import com.company.BrowserConfig;
+
 import com.company.ClientUser;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+
 
 
 public class ClientLogin extends ClientUser {

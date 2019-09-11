@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminLoginFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminLoginFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/CreateCompanyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/factory/CreateCompanyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +37,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.11954023" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -417,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568154778883</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="improvement">
+      <created>1568157287536</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1568157287536</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,6 +453,7 @@
     <MESSAGE value="MenuTab factory filled" />
     <MESSAGE value="complete, maven cannot run the test still" />
     <MESSAGE value="maven can test" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven can test" />
+    <MESSAGE value="improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="improvement" />
   </component>
 </project>
