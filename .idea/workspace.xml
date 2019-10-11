@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminLoginFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/AdminLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/AdminMainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/AdminMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/CompanyMainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/CompanyMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/CompanyPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/CompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/CreateCompanyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/CreateCompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/factory/MenuTabFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/MenuTabPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -422,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568157287536</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="improvement">
+      <created>1568209726881</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1568209726881</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

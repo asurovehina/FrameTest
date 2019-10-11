@@ -1,11 +1,11 @@
-package factory;
+package page;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CompanyMainFactory {
+public class CompanyMainPage {
     WebDriver driver;
     @FindBy(xpath = "//input[@id='quickSearchTextBox']")
     WebElement FilterCompany;
@@ -21,7 +21,7 @@ public class CompanyMainFactory {
 
     @FindBy(xpath = "//*[@id=\"btnAdd-act\"]/span")
     WebElement Add;
-    public CompanyMainFactory(WebDriver driver) {
+    public CompanyMainPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

@@ -1,30 +1,29 @@
 package admintest;
 
-import factory.*;
+import page.*;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
 public class TestCreateCompany extends BaseTest {
-    AdminLoginFactory adminLoginFactory;
-    AdminMainFactory adminMainFactory;
-    MenuTabFactory menuTabFactory;
-    CompanyMainFactory companyMainFactory;
-    CreateCompanyFactory createCompanyFactory;
+    AdminLoginPage adminLoginFactory;
+    AdminMainPage adminMainFactory;
+    MenuTabPage menuTabFactory;
+    CompanyMainPage companyMainFactory;
+    CreateCompanyPage createCompanyFactory;
    @BeforeClass
    public void BeforeClass () throws InterruptedException {
        getWebDriver();
        driver.get(url);
        Thread.sleep(2000);
        driver.manage().window().maximize();
-       adminLoginFactory = new AdminLoginFactory(driver);
-       adminMainFactory = new AdminMainFactory(driver);
-       menuTabFactory = new MenuTabFactory(driver);
-       companyMainFactory = new CompanyMainFactory(driver);
-       createCompanyFactory = new CreateCompanyFactory(driver);
+       adminLoginFactory = new AdminLoginPage(driver);
+       adminMainFactory = new AdminMainPage(driver);
+       menuTabFactory = new MenuTabPage(driver);
+       companyMainFactory = new CompanyMainPage(driver);
+       createCompanyFactory = new CreateCompanyPage(driver);
    }
     @Test
     public void CreateCompany() throws InterruptedException {

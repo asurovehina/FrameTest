@@ -1,4 +1,4 @@
-package factory;
+package page;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.Random;
 
-public class CreateCompanyFactory {
+public class CreateCompanyPage {
     WebDriver driver;
     @FindBy(xpath = "//*[@id=\"UserGroup\"]")
     WebElement Company;
@@ -35,7 +35,7 @@ public class CreateCompanyFactory {
 
     @FindBy(xpath = "//*[@id=\"BTNADD-act\"]")
     WebElement Save;
-    public CreateCompanyFactory(WebDriver driver) {
+    public CreateCompanyPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
