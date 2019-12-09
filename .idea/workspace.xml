@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/LoggingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/LoggingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +35,10 @@
   </component>
   <component name="ProjectId" id="1QHEJJPx0Pvdz3eEnfHdhcq5lgj" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/selenium/Log4j/log4j-core-2.12.1.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/selenium/Log4j/apache-log4j-extras-1.2.17/apache-log4j-extras-1.2.17.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.11954023" />
+    <property name="project.structure.side.proportion" value="0.2994723" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
@@ -50,7 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestCreateCompany">
+  <component name="RunManager" selected="Application.LoggingExample">
+    <configuration name="LoggingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.LoggingExample" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Olesia.Surovehina/IdeaProjects/TestFramework2/src/main/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="main" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/testng.xml" />
@@ -258,6 +274,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoggingExample" />
         <item itemvalue="TestNG.C:/Users/Olesia.Surovehina/IdeaProjects/TestFramework2/src/main/testng.xml" />
         <item itemvalue="TestNG.TransferOneToOneTest" />
       </list>
@@ -449,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575889717937</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="dependency to Maven is added">
+      <created>1575889827989</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1575889827989</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

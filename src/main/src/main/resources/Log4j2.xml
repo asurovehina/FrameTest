@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
+<Configuration>
+    <Properties>
+        <Property name="basePath">C:\\Users\\Olesia.Surovehina\\IdeaProjects\\TestFramework2\\src\\main\\src\\main\\logs</Property>
+    </Properties>
     <Appenders>
+        <RollingFile name="File" filePattern="${basePath}/app-%d{yyyy-MM-dd}.log" fileName="${basePath}/app.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n"/>
+                <Policies>
+                    <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+                    <SizeBasedTriggeringPolicy size="100 KB"/>
+                </Policies>
+        </RollingFile>
         <Console name="Console" target="">
             <PatternLayout pattern="%d{HH:mm:ss:SSS} %-5level %c{1} -%msg%n"></PatternLayout>
         </Console>
     </Appenders>
     <Loggers>
-        <Root level="info">
+        <Root level="trace">
             <AppenderRef ref="Console"/>
         </Root>
     </Loggers>
