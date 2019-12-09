@@ -11,13 +11,13 @@
                     <SizeBasedTriggeringPolicy size="100 KB"/>
                 </Policies>
         </RollingFile>
-        <Console name="Console" target="">
-            <PatternLayout pattern="%d{HH:mm:ss:SSS} %-5level %c{1} -%msg%n"></PatternLayout>
+        <Console name="Console">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n"/>
         </Console>
     </Appenders>
     <Loggers>
         <Root level="trace">
-            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
         </Root>
     </Loggers>
 </Configuration>

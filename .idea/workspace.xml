@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/LoggingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/LoggingExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -473,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575889827989</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="dependency to Maven is added">
+      <created>1575899391599</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1575899391599</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
