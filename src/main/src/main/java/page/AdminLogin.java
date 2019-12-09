@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AdminLoginPage {
+public class AdminLogin {
     WebDriver driver;
     @FindBy(xpath = "//*[@id=\"corpID\"]")
     WebElement userGroup;
@@ -19,7 +19,7 @@ public class AdminLoginPage {
 
     @FindBy(xpath = "//*[@id=\"loginFormWrapper\"]/div[2]/div/div[3]/div/div/div/div[1]/a/span")
     WebElement signIn;
-    public AdminLoginPage(WebDriver driver) {
+    public AdminLogin(WebDriver driver) {
             this.driver = driver;
             PageFactory.initElements(driver, this);
     }

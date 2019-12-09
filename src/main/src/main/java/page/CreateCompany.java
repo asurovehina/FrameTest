@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.Random;
 
-public class CreateCompanyPage {
+public class CreateCompany {
     WebDriver driver;
     @FindBy(xpath = "//*[@id=\"UserGroup\"]")
     WebElement Company;
@@ -35,7 +35,7 @@ public class CreateCompanyPage {
 
     @FindBy(xpath = "//*[@id=\"BTNADD-act\"]")
     WebElement Save;
-    public CreateCompanyPage(WebDriver driver) {
+    public CreateCompany(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

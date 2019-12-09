@@ -5,14 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CompanyPage {
+public class Company {
     WebDriver driver;
     @FindBy(xpath = "//*[@id=\"modifyUserGroupDetail\"]/span")
     WebElement ClientCompanyModify;
 
     @FindBy(xpath = "//*[@id=\"modifyUserGroupEntitlements\"]/span")
     WebElement ClientEntitlements;
-    public CompanyPage(WebDriver driver) {
+    public Company(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
