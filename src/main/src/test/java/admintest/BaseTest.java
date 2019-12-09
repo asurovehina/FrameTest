@@ -12,7 +12,7 @@ public class BaseTest {
     protected static String url = "https://pcm-dev1-fi9001-web01.saas-n.com/admin/pcm/logon.jsp";
 
     protected WebDriver getWebDriver() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Olesia.Surovehina\\Desktop\\selenium\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Olesia.Surovehina\\Desktop\\selenium\\chromedriver2.exe");
         driver = new ChromeDriver();
         return driver;
     }

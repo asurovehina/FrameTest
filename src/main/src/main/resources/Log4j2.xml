@@ -20,4 +20,7 @@
             <AppenderRef ref="File"/>
         </Root>
     </Loggers>
+        <Logger name="admintest" level="info" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
 </Configuration>

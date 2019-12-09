@@ -32,7 +32,7 @@ public class TestCreateCompany extends BaseTest {
    }
     @Test
     public void CreateCompany() throws InterruptedException {
-        adminLoginFactory.LoginAs("sysadmin1");
+        adminLoginFactory.LoginAs("admin1");
         Log.info("Login to the application...");
         adminMainFactory.ClickMenu();
         Log.info("Click the button Menu");

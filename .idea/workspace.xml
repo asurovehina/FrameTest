@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/AdminLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/AdminLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/AdminMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/AdminMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/CompanyMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/CompanyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/CompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/CreateCompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/CreateCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/LoggingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/MenuTabPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/MenuTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoggingExample">
+  <component name="RunManager" selected="TestNG.TestCreateCompany">
     <configuration name="LoggingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="page.LoggingExample" />
       <module name="main" />
@@ -499,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575903168899</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="logging in the test case">
+      <created>1575904061259</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1575904061259</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,6 +538,7 @@
     <MESSAGE value="dependency to Maven is added" />
     <MESSAGE value="works ok" />
     <MESSAGE value="global Log class has been created" />
-    <option name="LAST_COMMIT_MESSAGE" value="global Log class has been created" />
+    <MESSAGE value="logging in the test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="logging in the test case" />
   </component>
 </project>
