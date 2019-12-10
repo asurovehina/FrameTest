@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Log4j/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Log4j/log4j-application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AdminLoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/BrowserConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientEntitlements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CompanyCreation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tests/TransferOneToOneTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tests/TransferSingleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/data/UserData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/AdminLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/CompanyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/CompanyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/CreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/CreateCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/MenuTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/MenuTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/utils/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/utils/ConfigProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" afterDir="false" />
-    </list>
+    <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -537,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575974868758</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="thread sleep is deleted.">
+      <created>1575990010817</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1575990010817</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,6 +562,7 @@
     <MESSAGE value="logging in the test case" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring&#10;logging to the file is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring&#10;logging to the file is working" />
+    <MESSAGE value="thread sleep is deleted." />
+    <option name="LAST_COMMIT_MESSAGE" value="thread sleep is deleted." />
   </component>
 </project>
