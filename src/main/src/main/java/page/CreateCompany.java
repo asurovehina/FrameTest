@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 public class CreateCompany {
     WebDriver driver;
@@ -70,9 +71,9 @@ public class CreateCompany {
         AllowSelfAdmin.click();
     }
 
-    public void FillPaymentImportMethod(String value) throws InterruptedException {
+    public void FillPaymentImportMethod(String value) {
         PaymentImportMethod.clear();
-        Thread.sleep(2000);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         PaymentImportMethod.sendKeys(value); //usually the best option to fill in 'Any Workflow'
     }
         public void FillDataRetentionPS(String dataRetention) {
@@ -90,8 +91,8 @@ public class CreateCompany {
         MaxNumberIR.clear();
         MaxNumberIR.sendKeys(maxNumDays);
     }
-        public void ClickSave () throws InterruptedException {
+        public void ClickSave () {
         Save.click();
-        Thread.sleep(3000);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 }

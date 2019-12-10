@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.concurrent.TimeUnit;
+
 public class MenuTab {
     WebDriver driver;
     @FindBy(xpath ="//a[contains(@data-bt-itemrequestparams,'filterID=15151')]")
@@ -14,8 +16,8 @@ public class MenuTab {
         PageFactory.initElements(driver, this);
     }
 
-    public void ClickCompanyEl() throws InterruptedException {
+    public void ClickCompanyEl() {
         CompanyEl.click();
-        Thread.sleep(3000);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 }

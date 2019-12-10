@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.concurrent.TimeUnit;
+
 public class CompanyMain {
     WebDriver driver;
     @FindBy(xpath = "//input[@id='quickSearchTextBox']")
@@ -29,16 +31,19 @@ public class CompanyMain {
     public void fillFilterCompany  (String Company) {
         FilterCompany.sendKeys(Company);
     }
-        public void ClickGoButton() throws InterruptedException {
-        GoButton.click(); Thread.sleep(2000);
+        public void ClickGoButton(){
+        GoButton.click();
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
         public void ClickActions() {
         Actions.click();
     }
-        public void ClickActionsView () throws InterruptedException {
-        ActionsView.click(); Thread.sleep(2000);
+        public void ClickActionsView () {
+        ActionsView.click();
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
-        public void ClickAdd () throws InterruptedException {
-        Add.click(); Thread.sleep(2000);
+        public void ClickAdd () {
+        Add.click();
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 }

@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Log4j/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Log4j/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AdminLoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/BrowserConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientEntitlements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ClientUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CompanyCreation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/client/ClientLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tests/TransferOneToOneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tests/TransferSingleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/data/UserData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/AdminLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/CompanyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/CompanyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/CreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/CreateCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/page/MenuTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/page/MenuTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/java/utils/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/java/utils/ConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/TestCreateCompany.java" afterDir="false" />
     </list>
@@ -35,6 +52,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1QHEJJPx0Pvdz3eEnfHdhcq5lgj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/selenium/Log4j/apache-log4j-extras-1.2.17/apache-log4j-extras-1.2.17.jar!/" />
@@ -510,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575905972949</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="refactoring&#10;logging to the file is working">
+      <created>1575974868758</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1575974868758</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,6 +554,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit after reconverting as a maven project" />
     <MESSAGE value="commit after clientrole completed" />
     <MESSAGE value="commit after role refactoring" />
@@ -549,6 +577,7 @@
     <MESSAGE value="global Log class has been created" />
     <MESSAGE value="logging in the test case" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="refactoring&#10;logging to the file is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring&#10;logging to the file is working" />
   </component>
 </project>
