@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcbefeb-6f60-488a-8ca8-e63d8aa68404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/main/resources/Log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/test/java/admintest/BaseTest.java" afterDir="false" />
@@ -35,6 +36,7 @@
   </component>
   <component name="ProjectId" id="1QHEJJPx0Pvdz3eEnfHdhcq5lgj" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/selenium/Log4j/apache-log4j-extras-1.2.17/apache-log4j-extras-1.2.17.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -501,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575904061259</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="refactoring">
+      <created>1575905972949</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1575905972949</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,6 +548,7 @@
     <MESSAGE value="works ok" />
     <MESSAGE value="global Log class has been created" />
     <MESSAGE value="logging in the test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging in the test case" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>

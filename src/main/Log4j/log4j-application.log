@@ -1,0 +1,15 @@
+2019-12-10 11:45:07 INFO  Log:11 - Test is Starting...
+2019-12-10 11:45:16 INFO  Log:21 - Login to the application...
+2019-12-10 11:45:16 INFO  Log:21 - Click the button Menu
+2019-12-10 11:45:19 INFO  Log:21 - Click the button company
+2019-12-10 11:45:21 INFO  Log:21 - Click add
+2019-12-10 11:45:21 INFO  Log:21 - Fill in company
+2019-12-10 11:45:22 INFO  Log:21 - Fill in company name
+2019-12-10 11:45:22 INFO  Log:21 - Click Allow Self Admin
+2019-12-10 11:45:24 INFO  Log:21 - Fill in Payment Import Method
+2019-12-10 11:45:24 INFO  Log:21 - Fill in Data Retention PS
+2019-12-10 11:45:24 INFO  Log:21 - Fill in Max numbers PS
+2019-12-10 11:45:24 INFO  Log:21 - Fill in Data Retention IR
+2019-12-10 11:45:25 INFO  Log:21 - Fill Max Numbers IR
+2019-12-10 11:45:28 INFO  Log:21 - Click save
+2019-12-10 11:45:28 INFO  Log:16 - Test is Ending...

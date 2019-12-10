@@ -1,7 +1,5 @@
 package admintest;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import page.*;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterClass;
@@ -16,7 +14,6 @@ public class TestCreateCompany extends BaseTest {
     MenuTab menuTabFactory;
     CompanyMain companyMainFactory;
     CreateCompany createCompanyFactory;
-    private static final Logger log = LogManager.getLogger(TestCreateCompany.class.getName());
    @BeforeClass
    public void BeforeClass () throws InterruptedException {
        Log.startLog("Test is starting...");
